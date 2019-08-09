@@ -1,5 +1,7 @@
 #! /bin/bash
 
+npm install -g nodemon
+
 cd backend
 npm install
 
