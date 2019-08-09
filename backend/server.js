@@ -36,6 +36,13 @@ router.post('/classifybeat',(req,res) => {
             name : beatTypes.beatNames[sym]
         })
     })
+    py.stderr.on('data',(data) => {
+        var err = ""
+        err+=data
+        console.log(err)
+    })
+
+
 
     //const sym = helpers.getRandomFromArray(beatTypes.beatSymbols)
     /*

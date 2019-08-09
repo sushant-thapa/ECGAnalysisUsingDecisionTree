@@ -1,4 +1,3 @@
 #! /bin/bash
 
-cd client
-npm start & nodemon ../backend/server.js
+(cd client; npm start) & (cd backend; nodemon ../backend/server.js)
