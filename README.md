@@ -4,7 +4,7 @@ ECG classifier api and demo
 Installation:
 
 ```bash
-git clone github.com/rjpj2016/ecgclassifierinterface.git
+git clone https://github.com/sushant-thapa/ECGAnalysisUsingDecisionTree
 cd ecgclassifierinterface
 
 ./init.sh
